@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://be1g62f1o2y26"]
+
+[ext_resource type="Texture2D" uid="uid://d2e57o2x0oj85" path="res://assets/crystals/crystal2.png" id="1_ev6b6"]
+[ext_resource type="Texture2D" uid="uid://bhnfiucm4ocun" path="res://assets/light/light.png" id="2_rmiwx"]
+
+[node name="Crystal2" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("1_ev6b6")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+color = Color(0.768627, 0.784314, 0.917647, 1)
+energy = 0.4
+texture = ExtResource("2_rmiwx")
+texture_scale = 0.4
